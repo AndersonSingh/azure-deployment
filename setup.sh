@@ -7,4 +7,4 @@ echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" | 
 apt-get install -y oracle-java8-installer
 
 wget https://www.dropbox.com/s/zpkdkyf0c9pkupu/Azure%20ServiceBus%20Application.jar
-nohup java -server "Azure ServiceBus Application.jar" > /log.txt
+java -jar "Azure ServiceBus Application.jar" > log.txt &
