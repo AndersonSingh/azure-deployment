@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo su
 apt-get install -y python-software-properties debconf-utils
 add-apt-repository -y ppa:webupd8team/java
 apt-get update
