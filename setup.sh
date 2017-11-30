@@ -8,4 +8,4 @@ echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" | 
 apt-get install -y oracle-java8-installer
 
 wget https://www.dropbox.com/s/jvv1zzxcaizwrdk/servicebus.jar
-java -jar servicebus.jar > log.txt &
+java -jar servicebus.jar &
